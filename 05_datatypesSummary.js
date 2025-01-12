@@ -38,3 +38,26 @@ const myFunction = function() {
 // console.log(typeof bigNumber) // bigint
 // console.log(typeof myFunction) // function
 // console.log(typeof heros) //object
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+
+let myName = "aleesha"
+
+let anotherName = myName
+
+// console.log(anotherName) // aleesha
+
+let user = {
+    email : "aleesha@gmail.com"
+}
+
+let user2 = user
+user2.email = "aleeshab@google.com"
+
+// console.log(user.email) // aleeshab@google.com
+// console.log(user2.email) // aleeshab@google.com
+
