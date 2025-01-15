@@ -61,10 +61,48 @@ users[1].email
 
 // to see if a vaue exists or not 
 
-console.log(appUser.hasOwnProperty('email')); // false
+// console.log(appUser.hasOwnProperty('email')); // false
 
 // some other properties 
 
 // propertyIsEnumerable, isPrototypeOf, 
 
 
+// +++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// destructuring of objects
+
+
+const course = {
+    coursename : "JS",
+    instructor : "aleesha"
+}
+
+//course.coursename
+const {coursename,instructor} = course 
+console.log(coursename,instructor) // JS,aleesha
+
+// const navbar = ({company}) => {
+
+// } used in react, destructuring 
+
+navbar(company = "aleesha" )
+
+
+// ++++++++ JSON => not an obejct 
+
+
+//{
+// "name" :"Aleesha",
+// "coursename": "JS"
+//}
+
+// APIs can also be in the format of an array
+
+[
+    {},
+    {}
+]
+
+// JSON formatter => formart, beautify => tree,ext,code
