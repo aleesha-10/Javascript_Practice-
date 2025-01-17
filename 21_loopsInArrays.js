@@ -96,6 +96,7 @@ for (const key in languages) {
 //})
 
 // another method :
+
 // function printMe(item){
 //    console.log(item)
 // }
@@ -114,8 +115,18 @@ const myLanguages = [
    }
 ]
 
-myLanguages.forEach((value) => {
-    console.log(value.shortcut)
-    console.log(value.languageName)
-})
+//myLanguages.forEach((value) => {
+    //console.log(value.shortcut)
+    //console.log(value.languageName)
+//})
+
+//const item  = myLanguages.forEach((value) => {
+    //console.log(value)
+    //return value;
+//    
+//})
+
+console.log(item) // undefined because for each loop doesnt return anything
+
+
 
